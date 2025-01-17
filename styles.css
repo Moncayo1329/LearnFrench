@@ -1,0 +1,28 @@
+body {
+    background-color: #DBF9FC; /* Código de color hexadecimal */
+}
+
+:root {
+    --azul-frances: #0055A4;  
+    --blanco-frances: #FFFFFF; 
+    --rojo-frances: #EF4135;    
+}
+
+h1 {
+    color: var(--azul-frances);
+    text-shadow: 2px 0 var(--blanco-frances), 4px 0 var(--rojo-frances);
+    text-align: center;
+    padding:40px;
+    
+}
+
+p{
+    text-align:center;
+    line-height: 1.4;
+}
+
+
+.List {
+    margin-left: 135px;
+    padding:10px;
+}
