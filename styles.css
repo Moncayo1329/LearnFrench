@@ -26,3 +26,29 @@ p{
     margin-left: 135px;
     padding:10px;
 }
+
+
+.counter {
+    display: inline-block;
+        padding: 0.4rem 1.3rem; /* Espaciado dentro de la caja */
+        border: 2px solid #ccc; /* Borde de la caja */
+        border-radius: 12px; /* Bordes redondeados */
+        background-color: #f9f9f9; /* Fondo suave */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+        text-align: center; /* Alinea el contenido al centro */
+        font-size: 1.5rem; /* Tamaño del texto */
+        color: #333; /* Color del texto */
+        margin: 1rem auto; /* Margen para centrar y dar espacio */
+        width: fit-content; /* Ajusta la caja al contenido */
+}
+
+.counter {
+    font-weight: bold; /* Destacar el contador */
+}
+
+.counter{
+    background-color: #e8f5e9; /* Cambia el color de fondo al pasar el mouse */
+    border-color:var(--azul-frances);
+        transform: scale(1.05); /* Efecto de ampliación sutil */
+        transition: all 0.3s ease; /* Suaviza las transiciones */
+}
